@@ -26,3 +26,7 @@ Since the workflow requires specific nodes not included in the standard installa
 
 #### Extra Information
 Users can also manually install new nodes through the Install section located in KNIME’s main interface.
+
+## Chemical dataset requirements
+The workflow requires from the user a chemical database in any of the following formats: CSV, Table, XLSX, or SDF. The input file must include three columns: 1) a column with the compound's chemical linear representation (such as SMILES, SMARTS, or InChiKey); 2) a column with a numerical experimental or calculated property (for instance, a biological property such as activity or a physicochemical or molecular property property), and 3) a column with the molecule name or an identifier.
+To ensure accurate calculations and visualization, if a viological property - such as activity - is selected, all values must be expressed in consistent units. Mixed unit will result in incorrect standard deviation and mean activity values.
