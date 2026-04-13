@@ -6,7 +6,7 @@ The workflow was implemented using the KNIME Analytics Platform (v. 5.4.2), whic
 
 -RDKit Nodes Feature
 
--KNIME SBG Support
+-KNIME SVG Support
 
 The workflow is available in .knwf format, the standard file type for KNIME workflows.
 
@@ -29,4 +29,4 @@ Users can also manually install new nodes through the Install section located in
 
 ## Chemical dataset requirements
 The workflow requires from the user a chemical database in any of the following formats: CSV, Table, XLSX, or SDF. The input file must include three columns: 1) a column with the compound's chemical linear representation (such as SMILES, SMARTS, or InChiKey); 2) a column with a numerical experimental or calculated property (for instance, a biological property such as activity or a physicochemical or molecular property property), and 3) a column with the molecule name or an identifier.
-To ensure accurate calculations and visualization, if a viological property - such as activity - is selected, all values must be expressed in consistent units. Mixed unit will result in incorrect standard deviation and mean activity values.
+To ensure accurate calculations and visualization, if a biological property - such as activity - is selected, all values must be expressed in consistent units. Mixed unit will result in incorrect standard deviation and mean activity values.
